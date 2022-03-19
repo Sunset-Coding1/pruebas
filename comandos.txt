@@ -5,8 +5,16 @@ Inicialización de Git en el proyecto --> git init
  Para visualizar los archivos agregados --> git status
   Crear commit --> git commit -m "aquí va tu mensaje"  //Une todos los archivos
    Cambiar rama --> git branch -M nombreDeTuRama
+     Para visualizar en qué rama estás posicionado --> git checkout 
      Apuntar al respository al que se le va hacer el push --> git remote add origin dirección/url del repositorio   
      El push se hace con --> git push -u origin nombreDeTuRama
+
+
+PARA SOBREESCRIBIR CAMBIOS
+Hacer cambios a un respositorio con archivos --> git add .
+                                             --> git commit -m "aqupí tu mensaje"
+                                             --> git push -u origin nombreDeTuRama
+
 
 
 
